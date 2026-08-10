@@ -230,27 +230,27 @@ if "%choix%"=="9" goto menu
 
 echo Choix invalide, reessayez.
 timeout /t 2 >nul
-goto option5
+goto menutech1
 
 :app1
 cls
 start devmgmt.msc
-goto option5
+goto menutech1
 
 :app2
 cls
 start regedit
-goto option5
+goto menutech1
 
 :app3
 cls
 start certmgr.msc
-goto option5
+goto menutech1
 
 :app4
 cls
 start eventvwr.msc
-goto option5
+goto menutech1
 
 :app5
 cls
@@ -260,12 +260,12 @@ goto option5
 :app6
 cls
 start diskmgmt.msc
-goto option5
+goto menutech1
 
 :app7
 cls
 start cmd.exe
-goto option5
+goto menutech1
 
 :menutech2
 cls
