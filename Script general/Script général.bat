@@ -42,13 +42,10 @@ echo 2. Correction acces rapide explorateur
 echo 3. Visioneuse 
 echo 4. Analyse et reparation système
 echo 5. Reinitialisation reseau
-echo 6.
-echo 7.
-echo 8.
-echo 9. Menu principal
+echo 9. Retour
 echo ====================================
 
-set /p choix=Faites votre choix (1-4) : 
+set /p choix=Faites votre choix (1-9) : 
 
 if "%choix%"=="1" goto option1
 if "%choix%"=="2" goto option2
@@ -291,7 +288,7 @@ goto page2
 :app1.1
 cls
 start control
-goto page2
+goto menutech2
 
 :fin
 exit
